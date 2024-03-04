@@ -18,7 +18,7 @@ namespace Mekel.WebUI.Controllers
         {
             MimeMessage mimeMessage = new MimeMessage();
 
-            MailboxAddress mailboxAddressFrom = new MailboxAddress("MekelAdmin", "esintugbad@gmail.com");
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("MekelAdmin", "mekel@gmail.com");
             mimeMessage.From.Add(mailboxAddressFrom);
 
             MailboxAddress mailboxAddressTo = new MailboxAddress("User", model.ReceiverMail); // Correct property name
@@ -32,7 +32,7 @@ namespace Mekel.WebUI.Controllers
 
             SmtpClient client = new SmtpClient();
             client.Connect("smtp.gmail.com", 587, false);
-            client.Authenticate("esintugbad@gmail.com", "password");
+            client.Authenticate("mekel@gmail.com", "password");
             client.Send(mimeMessage);
             client.Disconnect(true);
 
