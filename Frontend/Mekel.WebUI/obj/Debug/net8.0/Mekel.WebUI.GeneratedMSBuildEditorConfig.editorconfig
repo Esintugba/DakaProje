@@ -1,0 +1,291 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mekel.WebUI
+build_property.RootNamespace = Mekel.WebUI
+build_property.ProjectDir = C:\Users\esint\source\repos\DakaProje\Frontend\Mekel.WebUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\esint\source\repos\DakaProje\Frontend\Mekel.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/About/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminAbout/AAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BYm91dFxBQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminAbout/AddAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BYm91dFxBZGRBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminAbout/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BYm91dFxVcGRhdGVBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminBlog/ABlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nXEFCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminBlog/AddBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nXEFkZEJsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminBlog/UpdateBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nXFVwZGF0ZUJsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminCategory/ACategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxBQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminCategory/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxBZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminCategory/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxVcGRhdGVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminChef/AChef.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DaGVmXEFDaGVmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminChef/AddChef.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DaGVmXEFkZENoZWYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminChef/UpdateChef.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DaGVmXFVwZGF0ZUNoZWYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminContact/AddSendMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db250YWN0XEFkZFNlbmRNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminContact/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db250YWN0XEluYm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminContact/MessageDetailsByInbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db250YWN0XE1lc3NhZ2VEZXRhaWxzQnlJbmJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminContact/MessageDetailsBySendbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db250YWN0XE1lc3NhZ2VEZXRhaWxzQnlTZW5kYm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminContact/Sendbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db250YWN0XFNlbmRib3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminContact/SideBarAdminContactCategoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db250YWN0XFNpZGVCYXJBZG1pbkNvbnRhY3RDYXRlZ29yeVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminContact/SideBarAdminContactPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db250YWN0XFNpZGVCYXJBZG1pbkNvbnRhY3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminFile/File.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5GaWxlXEZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminGallery/AddGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5XEFkZEdhbGxlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminGallery/AGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5XEFHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminGallery/UpdateGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5HYWxsZXJ5XFVwZGF0ZUdhbGxlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminHome/AddHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEFkZEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminHome/AHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEFIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminHome/UpdateHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXFVwZGF0ZUhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminImageFile/ImageFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5JbWFnZUZpbGVcSW1hZ2VGaWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminMail/Mail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NYWlsXE1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminMenu/AddMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51XEFkZE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminMenu/AMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51XEFNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminMenu/UpdateMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51XFVwZGF0ZU1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminReservation/AddReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvblxBZGRSZXNlcnZhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminReservation/AReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvblxBUmVzZXJ2YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/AdminReservation/UpdateReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvblxVcGRhdGVSZXNlcnZhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Blog/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Blog/BlogDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Chef/Chef.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlZlxDaGVmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Contact/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/ErrorPage/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEVycm9yNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Gallery/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial10.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsMTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsNS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsNi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsNy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsOC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Partial9.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsOS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Menu/Dessert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZXNzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Menu/Drink.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEcmluay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Menu/Meal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Menu/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Reservation/Reservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cUmVzZXJ2YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-t553wauxr4
+
+[C:/Users/esint/source/repos/DakaProje/Frontend/Mekel.WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-p5bi0f9s76

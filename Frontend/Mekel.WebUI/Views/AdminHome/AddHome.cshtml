@@ -1,0 +1,21 @@
+﻿@model CreateHomeDto
+@{
+    ViewData["Title"] = "AddHome";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <label>Baslik</label>
+    <input type="text" asp-for="Baslik" class="form-control" />
+    <span asp-validation-for="Baslik" class="text-danger"></span>
+    <br />
+    <label>Description</label>
+    <input type="text" asp-for="Description" class="form-control" />
+    <span asp-validation-for="Description" class="text-danger"></span>
+    <br />
+    <label>ImageUrl</label>
+    <input type="text" asp-for="ImageUrl" class="form-control" />
+    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    <br />
+    <button class="btn btn-primary">Ekle</button>
+</form>

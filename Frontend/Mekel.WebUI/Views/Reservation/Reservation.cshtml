@@ -1,0 +1,78 @@
+﻿@model CreateReservationDto
+@{
+    ViewData["Title"] = "Reservation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs">
+    <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>REZERVASYON</h2>
+            <ol>
+                <li><a href="index.html">Galeri</a></li>
+                <li>Anılar</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+
+ <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Rezervasyon</h2>
+          <p>Rezervasyonunuzu <span>Bizimle</span> Yapın</p>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-4 reservation-img" style="background-image: url(/assets/img/reservation.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+            <form asp-action="Reservation" asp-controller="Reservation" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="Name" class="form-control" id="name" placeholder="Adınız - Soyadınız" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="Email" id="email" placeholder="E-Mail" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="Phone" id="phone" placeholder="Telefon Numarası" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="date" name="Date" class="form-control" id="date" placeholder="Tarih" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="Time" id="time" placeholder="Saat" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="number" class="form-control" name="Person" id="people" placeholder="Kişi Sayısı" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="Message" rows="5" placeholder="Mesajınız"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Rezervasyon</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section
+

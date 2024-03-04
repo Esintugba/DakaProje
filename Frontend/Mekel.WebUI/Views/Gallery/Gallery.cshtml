@@ -1,0 +1,48 @@
+﻿@model List<ResultGalleryDto>
+@{
+    ViewData["Title"] = "Gallery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="breadcrumbs">
+    <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>GALERİ</h2>
+            <ol>
+                <li><a href="index.html">Galeri</a></li>
+                <li>Anılar</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<section id="gallery" class="gallery section-bg">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Galeri</h2>
+            <p>Anılarımıza <span>Göz Atın</span></p>
+        </div>
+       
+            <div class="gallery-slider swiper">
+             <div class="swiper-wrapper align-items-center">
+                @foreach (var item in Model)
+                {
+
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="@item.ImageUrl"><img src="@item.ImageUrl" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="@item.ImageUrl"><img src="@item.ImageUrl" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="@item.ImageUrl"><img src="@item.ImageUrl" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="@item.ImageUrl"><img src="@item.ImageUrl" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="@item.ImageUrl"><img src="@item.ImageUrl" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="@item.ImageUrl"><img src="@item.ImageUrl" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="@item.ImageUrl"><img src="@item.ImageUrl" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="@item.ImageUrl"><img src="@item.ImageUrl" class="img-fluid" alt=""></a></div>
+                }
+                </div>
+            <div class="swiper-pagination"></div>
+            
+        </div>
+       
+    </div>
+</section>

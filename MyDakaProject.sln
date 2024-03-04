@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiConsume", "ApiConsume", "{3AC2BD70-496A-40B4-8CF4-2A067180FB77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{C1564CD9-4995-42E1-BEDC-8247F799929F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mekel.WebApi", "Mekel.WebApi\Mekel.WebApi.csproj", "{B35F12E5-819E-4411-B039-A8405D3FF72D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mekel.EntityLayer", "ApiConsume\Mekel.EntityLayer\Mekel.EntityLayer.csproj", "{2AF23BBB-06C2-4013-863D-FA92FED1FC18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mekel.DataAccessLayer", "ApiConsume\Mekel.DataAccessLayer\Mekel.DataAccessLayer.csproj", "{571E5F2F-871F-449D-A2D4-2F81AA8EBA19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mekel.BusinessLayer", "ApiConsume\Mekel.BusinessLayer\Mekel.BusinessLayer.csproj", "{34FAEDD5-9A2C-476A-807F-C45B4E4D6BB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mekel.WebUI", "Frontend\Mekel.WebUI\Mekel.WebUI.csproj", "{C7833C5C-56B5-47C4-BD97-FEF06DD11404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35F12E5-819E-4411-B039-A8405D3FF72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35F12E5-819E-4411-B039-A8405D3FF72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35F12E5-819E-4411-B039-A8405D3FF72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35F12E5-819E-4411-B039-A8405D3FF72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF23BBB-06C2-4013-863D-FA92FED1FC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF23BBB-06C2-4013-863D-FA92FED1FC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF23BBB-06C2-4013-863D-FA92FED1FC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF23BBB-06C2-4013-863D-FA92FED1FC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571E5F2F-871F-449D-A2D4-2F81AA8EBA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571E5F2F-871F-449D-A2D4-2F81AA8EBA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571E5F2F-871F-449D-A2D4-2F81AA8EBA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571E5F2F-871F-449D-A2D4-2F81AA8EBA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FAEDD5-9A2C-476A-807F-C45B4E4D6BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FAEDD5-9A2C-476A-807F-C45B4E4D6BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FAEDD5-9A2C-476A-807F-C45B4E4D6BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FAEDD5-9A2C-476A-807F-C45B4E4D6BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7833C5C-56B5-47C4-BD97-FEF06DD11404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7833C5C-56B5-47C4-BD97-FEF06DD11404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7833C5C-56B5-47C4-BD97-FEF06DD11404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7833C5C-56B5-47C4-BD97-FEF06DD11404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B35F12E5-819E-4411-B039-A8405D3FF72D} = {3AC2BD70-496A-40B4-8CF4-2A067180FB77}
+		{2AF23BBB-06C2-4013-863D-FA92FED1FC18} = {3AC2BD70-496A-40B4-8CF4-2A067180FB77}
+		{571E5F2F-871F-449D-A2D4-2F81AA8EBA19} = {3AC2BD70-496A-40B4-8CF4-2A067180FB77}
+		{34FAEDD5-9A2C-476A-807F-C45B4E4D6BB6} = {3AC2BD70-496A-40B4-8CF4-2A067180FB77}
+		{C7833C5C-56B5-47C4-BD97-FEF06DD11404} = {C1564CD9-4995-42E1-BEDC-8247F799929F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14B7AF94-A391-44B7-A7A5-247D588D7B46}
+	EndGlobalSection
+EndGlobal

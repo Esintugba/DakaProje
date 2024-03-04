@@ -1,0 +1,14 @@
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\bin\Debug\net8.0\Mekel.EntityLayer.deps.json
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\bin\Debug\net8.0\Mekel.EntityLayer.runtimeconfig.json
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\bin\Debug\net8.0\Mekel.EntityLayer.dll
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\bin\Debug\net8.0\Mekel.EntityLayer.pdb
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\Mekel.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\Mekel.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\Mekel.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\Mekel.EntityLayer.AssemblyInfo.cs
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\Mekel.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\Mekel.EntityLayer.dll
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\refint\Mekel.EntityLayer.dll
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\Mekel.EntityLayer.pdb
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\Mekel.EntityLayer.genruntimeconfig.cache
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.EntityLayer\obj\Debug\net8.0\ref\Mekel.EntityLayer.dll

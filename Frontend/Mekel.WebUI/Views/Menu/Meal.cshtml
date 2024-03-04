@@ -1,0 +1,625 @@
+﻿
+@{
+    ViewData["Title"] = "Meal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="breadcrumbs">
+    <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>YEMEKLER</h2>
+            <ol>
+                <li><a href="index.html">Menü</a></li>
+                <li>Yemek</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<section id="menu" class="menu">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Menümüz</h2>
+            <p>Nefis Menümüze<span> Göz Atın</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+            <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-pizza">
+                    <h4>Pizza</h4>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-hamburger">
+                    <h4>Hamburger</h4>
+                </a>
+
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-makarna">
+                    <h4>Makarna</h4>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-salata">
+                    <h4>Salata</h4>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-kahvalti">
+                    <h4>Kahvaltı</h4>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-anayemek">
+                    <h4>Ana Yemek</h4>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-sokaklezzetleri">
+                    <h4>Sokak Lezzetleri</h4>
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="tab-pane fade active show" id="menu-pizza">
+
+                <div class="tab-header text-center">
+                    <p>Menü</p>
+                    <h3>Pizzalar</h3>
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/barbecue.png" class="glightbox"><img src="/assets/img/menu/barbecue.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Barbekü Tavuklu Pizza</h4>
+                        <p class="ingredients">
+                            İnce hamurumuz, enfes barbekü sosumuz ve özel olarak seçilmiş malzemelerle bezeli bu pizza, damaklarda unutulmaz bir izlenim bırakacak
+                        </p>
+                        <p class="price">
+                            ₺220
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/cheese.png" class="glightbox"><img src="/assets/img/menu/cheese.png" class="menu-img img-fluid" alt=""></a>
+                        <h4> 4 Peynirli Pizza</h4>
+                        <p class="ingredients">
+                            İnce hamurumuz, mozzarella, cheddar, parmesan ve gorgonzola peynirleriyle kaplanmış, her ısırıkta peynirin yoğun aromasını hissedeceğiniz bir lezzet harikası.
+                        </p>
+                        <p class="price">
+                            ₺240
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/hawaii.png" class="glightbox"><img src="/assets/img/menu/hawaii.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Hawaii Pizza</h4>
+                        <p class="ingredients">
+                            İnce hamurumuzun üzerinde, özenle seçilmiş dilimlenmiş jambon, ananas parçaları ve taptaze mozzarella peyniriyle unutulmaz bir lezzet yaratıyor.
+                        </p>
+                        <p class="price">
+                            ₺260
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/margherita.png" class="glightbox"><img src="/assets/img/menu/margherita.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Margherita Pizza </h4>
+                        <p class="ingredients">
+                            İnce hamurumuzun üzerinde yer alan taze domates dilimleri, mozzarella peyniri ve taze fesleğen yaprakları, her ısırıkta size nefis bir deneyim sunuyor.
+                        </p>
+                        <p class="price">
+                            ₺240
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/pepperoni.png" class="glightbox"><img src="/assets/img/menu/pepperoni.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Pepperoni Pizza</h4>
+                        <p class="ingredients">
+                            İnce hamurumuzun üzerinde bolca yer alan keskin ve baharatlı pepperoni dilimleri, mozzarella peyniriyle mükemmel bir uyum içinde.
+                        </p>
+                        <p class="price">
+                            ₺250
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/vegetarian.png" class="glightbox"><img src="/assets/img/menu/vegetarian.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Vejeteryan Pizza</h4>
+                        <p class="ingredients">
+                            İnce hamurumuzun üzerinde taze sebzelerin, renkli biberlerin, siyah zeytinlerin, taze mantarların ve mozzarella peynirinin mükemmel bir birleşimi sizi bekliyor.
+                        </p>
+                        <p class="price">
+                            ₺240
+                        </p>
+                    </div>
+         
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="menu-hamburger">
+
+                <div class="tab-header text-center">
+                    <p>Menü</p>
+                    <h3>Hamburgerler</h3>
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-1.png" class="glightbox"><img src="/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Magnam Tiste</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $5.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-2.png" class="glightbox"><img src="/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Aut Luia</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $14.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-3.png" class="glightbox"><img src="/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Est Eligendi</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $8.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-4.png" class="glightbox"><img src="/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-5.png" class="glightbox"><img src="/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-6.png" class="glightbox"><img src="/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Laboriosam Direva</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $9.95
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="menu-makarna">
+
+                <div class="tab-header text-center">
+                    <p>Menü</p>
+                    <h3>Makarnalar</h3>
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-1.png" class="glightbox"><img src="/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Magnam Tiste</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $5.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-2.png" class="glightbox"><img src="/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Aut Luia</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $14.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-3.png" class="glightbox"><img src="/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Est Eligendi</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $8.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-4.png" class="glightbox"><img src="/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-5.png" class="glightbox"><img src="/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-6.png" class="glightbox"><img src="/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Laboriosam Direva</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $9.95
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="menu-salata">
+
+                <div class="tab-header text-center">
+                    <p>Menü</p>
+                    <h3>Salatalar</h3>
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-1.png" class="glightbox"><img src="/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Magnam Tiste</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $5.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-2.png" class="glightbox"><img src="/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Aut Luia</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $14.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-3.png" class="glightbox"><img src="/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Est Eligendi</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $8.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-4.png" class="glightbox"><img src="/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-5.png" class="glightbox"><img src="/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-6.png" class="glightbox"><img src="/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Laboriosam Direva</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $9.95
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="menu-kahvalti">
+
+                <div class="tab-header text-center">
+                    <p>Menü</p>
+                    <h3>Kahvaltılar</h3>
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-1.png" class="glightbox"><img src="/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Magnam Tiste</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $5.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-2.png" class="glightbox"><img src="/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Aut Luia</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $14.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-3.png" class="glightbox"><img src="/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Est Eligendi</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $8.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-4.png" class="glightbox"><img src="/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-5.png" class="glightbox"><img src="/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-6.png" class="glightbox"><img src="/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Laboriosam Direva</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $9.95
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="menu-anayemek">
+
+                <div class="tab-header text-center">
+                    <p>Menü</p>
+                    <h3>Ana Yemekler</h3>
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-1.png" class="glightbox"><img src="/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Magnam Tiste</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $5.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-2.png" class="glightbox"><img src="/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Aut Luia</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $14.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-3.png" class="glightbox"><img src="/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Est Eligendi</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $8.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-4.png" class="glightbox"><img src="/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-5.png" class="glightbox"><img src="/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-6.png" class="glightbox"><img src="/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Laboriosam Direva</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $9.95
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="menu-sokaklezzetleri">
+
+                <div class="tab-header text-center">
+                    <p>Menü</p>
+                    <h3>Sokak Lezzetleri</h3>
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-1.png" class="glightbox"><img src="/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Magnam Tiste</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $5.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-2.png" class="glightbox"><img src="/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Aut Luia</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $14.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-3.png" class="glightbox"><img src="/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Est Eligendi</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $8.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-4.png" class="glightbox"><img src="/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-5.png" class="glightbox"><img src="/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Eos Luibusdam</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $12.95
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <a href="/assets/img/menu/menu-item-6.png" class="glightbox"><img src="/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                        <h4>Laboriosam Direva</h4>
+                        <p class="ingredients">
+                            Lorem, deren, trataro, filede, nerada
+                        </p>
+                        <p class="price">
+                            $9.95
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

@@ -1,0 +1,48 @@
+﻿@model List<ResultReservationDto>
+@{
+    ViewData["Title"] = "AReservation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Person</th>
+        <th>Message</th>
+        <th>Status</th>
+        <th>Onay</th>
+        <th>İptal</th>
+        <th>Bekleme</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.Id</th>
+            <td>@item.Name</td>
+            <td>@item.Email</td>
+            <td>@item.Phone</td>
+            <td>@(((DateTime)item.Date).ToString("dd-MMM-yyyy"))</td>
+            <td>@item.Time</td>
+            <td>@item.Person</td>
+            <td>@item.Message</td>
+            <td><span class="badge badge-primary px-2">@item.Durum</span></td>
+            <td><a href="/AdminReservation/ApprovedReservation2/@item.Id" class="btn btn-outline-primary">Onayla</a></td>
+            <td><a href="/AdminReservation/CancelReservation/@item.Id" class="btn btn-outline-danger">İptal Et</a></td>
+            <td><a href="/AdminReservation/WaitReservation/@item.Id" class="btn btn-outline-warning">Beklet</a></td>
+            <td><a href="/AdminReservation/UpdateReservation/@item.Id" class="btn btn-outline-info">Güncelle</a></td>
+            <td><a href="/AdminReservation/UpdateReservation/@item.Id" class="btn btn-outline-dark">Detaylar</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/AdminReservation/AddReservation/" class="btn mb-1 btn-rounded btn-outline-info">Reservation</a>
+
+

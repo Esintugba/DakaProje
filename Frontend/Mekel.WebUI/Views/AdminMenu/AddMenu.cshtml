@@ -1,0 +1,33 @@
+﻿@model CreateMenuDto
+@{
+    ViewData["Title"] = "AddMenu";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <label>Name</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+    <label>Description</label>
+    <input type="text" asp-for="Description" class="form-control" />
+    <span asp-validation-for="Description" class="text-danger"></span>
+    <br />
+    <label>ImageUrl</label>
+    <input type="text" asp-for="ImageUrl" class="form-control" />
+    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    <br />
+    <label>Price</label>
+    <input type="text" asp-for="Price" class="form-control" />
+    <span asp-validation-for="Price" class="text-danger"></span>
+    <br />
+    <label>CategoryId</label>
+    <input type="text" asp-for="CategoryId" class="form-control" />
+    <span asp-validation-for="CategoryId" class="text-danger"></span>
+    <br />
+    <button class="btn btn-primary">Ekle</button>
+</form>
+
+
+
+

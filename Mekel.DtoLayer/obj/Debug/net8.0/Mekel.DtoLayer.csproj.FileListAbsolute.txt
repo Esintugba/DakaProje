@@ -1,0 +1,17 @@
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\bin\Debug\net8.0\Mekel.DtoLayer.deps.json
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\bin\Debug\net8.0\Mekel.DtoLayer.runtimeconfig.json
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\bin\Debug\net8.0\Mekel.DtoLayer.dll
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\bin\Debug\net8.0\Mekel.DtoLayer.pdb
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\bin\Debug\net8.0\Mekel.EntityLayer.dll
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\bin\Debug\net8.0\Mekel.EntityLayer.pdb
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.DtoLayer.AssemblyInfo.cs
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.Dt.ED5D41F1.Up2Date
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.DtoLayer.dll
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\refint\Mekel.DtoLayer.dll
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.DtoLayer.pdb
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\Mekel.DtoLayer.genruntimeconfig.cache
+C:\Users\esint\source\repos\DakaProje\Mekel.DtoLayer\obj\Debug\net8.0\ref\Mekel.DtoLayer.dll

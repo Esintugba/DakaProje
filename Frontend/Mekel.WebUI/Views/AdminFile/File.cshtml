@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "File";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="file" class="form-control" />
+    <br />
+    <button class="btn btn-primary">Dosyayı Yükle</button>
+</form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Check if the query parameter 'uploadSuccess' is present in the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('uploadSuccess')) {
+            // Display a pop-up message
+            alert('Dosya başarı ile yüklenmiştir.');
+        }
+    });
+</script>

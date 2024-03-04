@@ -1,0 +1,30 @@
+﻿@model List<ResultCategoryDto>
+@{
+    ViewData["Title"] = "ACategory";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>CategoryId</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.Id</th>
+            <td>@item.Name</td>
+            <td>@item.CategoryId</td>
+            <td><a href="/AdminCategory/DeleteCategory/@item.Id" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+            <td><a href="/AdminCategory/UpdateCategory/@item.Id" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+        </tr>
+    }
+</table>
+<a href="/AdminCategory/AddCategory/" class="btn mb-1 btn-rounded btn-outline-info">Category</a>
+

@@ -1,0 +1,36 @@
+﻿@model List<ResultAboutDto>
+@{
+    ViewData["Title"] = "AAbout";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Description1</th>
+        <th>Description2</th>
+        <th>Description3</th>
+        <th>Description4</th>
+        <th>ImageUrl</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.Id</th>
+            <td>@item.Description1</td>
+            <td>@item.Description2</td>
+            <td>@item.Description3</td>
+            <td>@item.Description4</td>
+            <td>@item.ImageUrl</td>
+            <td><a href="/AdminAbout/DeleteAbout/@item.Id" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+            <td><a href="/AdminAbout/UpdateAbout/@item.Id" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+        </tr>
+    }
+</table>
+<a href="/AdminAbout/AddAbout/" class="btn mb-1 btn-rounded btn-outline-info">About</a>
+
+

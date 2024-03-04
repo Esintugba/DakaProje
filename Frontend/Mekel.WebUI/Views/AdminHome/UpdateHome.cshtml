@@ -1,0 +1,25 @@
+﻿@model UpdateHomeDto
+@{
+    ViewData["Title"] = "UpdateHome";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <label>Baslik</label>
+    <input type="text" asp-for="Baslik" class="form-control" />
+    <span asp-validation-for="Baslik" class="text-danger"></span>
+    <br />
+    <label>Description</label>
+    <input type="text" asp-for="Description" class="form-control" />
+    <span asp-validation-for="Description" class="text-danger"></span>
+    <br />
+    <label>ImageUrl</label>
+    <input type="text" asp-for="ImageUrl" class="form-control" />
+    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    <br />
+    <button class="btn btn-primary">Güncelle</button>
+</form>
+
+
+

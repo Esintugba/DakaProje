@@ -1,0 +1,17 @@
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\bin\Debug\net8.0\Mekel.DataAccessLayer.deps.json
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\bin\Debug\net8.0\Mekel.DataAccessLayer.runtimeconfig.json
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\bin\Debug\net8.0\Mekel.DataAccessLayer.dll
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\bin\Debug\net8.0\Mekel.DataAccessLayer.pdb
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\bin\Debug\net8.0\Mekel.EntityLayer.dll
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\bin\Debug\net8.0\Mekel.EntityLayer.pdb
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.DataAccessLayer.AssemblyInfo.cs
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.Da.C6244FCA.Up2Date
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.DataAccessLayer.dll
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\refint\Mekel.DataAccessLayer.dll
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.DataAccessLayer.pdb
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\Mekel.DataAccessLayer.genruntimeconfig.cache
+C:\Users\esint\source\repos\DakaProje\ApiConsume\Mekel.DataAccessLayer\obj\Debug\net8.0\ref\Mekel.DataAccessLayer.dll

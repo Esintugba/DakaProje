@@ -1,0 +1,16 @@
+﻿@model CreateGalleryDto
+@{
+    ViewData["Title"] = "AddGallery";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <label>ImageUrl</label>
+    <input type="text" asp-for="ImageUrl" class="form-control" />
+    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    <br />
+    <button class="btn btn-primary">Ekle</button>
+</form>
+
+
+

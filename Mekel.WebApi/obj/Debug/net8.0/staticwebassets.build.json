@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VlYfKdECgOLQg5eAYvLsIK6B9T8znT0KiqZ6BqQ85Fs=",
+  "Source": "Mekel.WebApi",
+  "BasePath": "_content/Mekel.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

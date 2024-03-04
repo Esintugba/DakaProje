@@ -1,0 +1,43 @@
+﻿@model List<ResultChefDto>
+@{
+    ViewData["Title"] = "AChef";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>ImageUrl</th>
+        <th>Unvan</th>
+        <th>Twitter</th>
+        <th>Facebook</th>
+        <th>Instagram</th>
+        <th>Linkedln</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.Id</th>
+            <th>@item.Name</th>
+            <td>@item.Description</td>
+            <td>@item.ImageUrl</td>
+            <td>@item.Unvan</td>
+            <td>@item.Twitter</td>
+            <td>@item.Facebook</td>
+            <td>@item.Instagram</td>
+            <td>@item.Linkedln</td>
+            <td><a href="/AdminChef/DeleteChef/@item.Id" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+            <td><a href="/AdminChef/UpdateChef/@item.Id" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+        </tr>
+    }
+</table>
+<a href="/AdminChef/AddChef/" class="btn mb-1 btn-rounded btn-outline-info">Chef</a>
+
+

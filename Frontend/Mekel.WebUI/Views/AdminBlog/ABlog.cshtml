@@ -1,0 +1,36 @@
+﻿@model List<ResultBlogDto>
+@{
+    ViewData["Title"] = "ABlog";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Text</th>
+        <th>Description</th>
+        <th>BlogImage</th>
+        <th>Date</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.Id</th>
+            <td>@item.Text</td>
+            <td>@item.Description</td>
+            <td>@item.BlogImage</td>
+            <td>@(((DateTime)item.Date).ToString("dd-MMM-yyyy"))</td>
+            <td><a href="/AdminBlog/DeleteBlog/@item.Id" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+            <td><a href="/AdminBlog/UpdateBlog/@item.Id" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a></td>
+            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+        </tr>
+    }
+</table>
+<a href="/AdminBlog/AddBlog/" class="btn mb-1 btn-rounded btn-outline-info">Blog</a>
+
+
+

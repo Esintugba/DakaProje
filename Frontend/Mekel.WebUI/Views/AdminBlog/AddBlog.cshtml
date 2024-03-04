@@ -1,0 +1,27 @@
+﻿@model CreateBlogDto
+@{
+    ViewData["Title"] = "AddBlog";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <label>Text</label>
+    <input type="text" asp-for="Text" class="form-control" />
+    <span asp-validation-for="Text" class="text-danger"></span>
+    <br />
+    <label>Description</label>
+    <input type="text" asp-for="Description" class="form-control" />
+    <span asp-validation-for="Description" class="text-danger"></span>
+    <br />
+    <label>BlogImage</label>
+    <input type="text" asp-for="BlogImage" class="form-control" />
+    <span asp-validation-for="BlogImage" class="text-danger"></span>
+    <br />
+    <label>Date</label>
+    <input type="date" asp-for="Date" class="form-control" />
+    <span asp-validation-for="Date" class="text-danger"></span>
+    <br />
+    <button class="btn btn-primary">Ekle</button>
+</form>
+
+

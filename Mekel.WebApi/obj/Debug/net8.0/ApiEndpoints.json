@@ -1,0 +1,1018 @@
+[
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.AboutController",
+    "Method": "AboutList",
+    "RelativePath": "api/About",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.AboutController",
+    "Method": "UpdateAbout",
+    "RelativePath": "api/About",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "about",
+        "Type": "Mekel.EntityLayer.Concrete.About",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.AboutController",
+    "Method": "AddAbout",
+    "RelativePath": "api/About",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "about",
+        "Type": "Mekel.EntityLayer.Concrete.About",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.AboutController",
+    "Method": "GetAbout",
+    "RelativePath": "api/About/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.AboutController",
+    "Method": "DeleteAbout",
+    "RelativePath": "api/About/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.BlogController",
+    "Method": "BlogList",
+    "RelativePath": "api/Blog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.BlogController",
+    "Method": "UpdateBlog",
+    "RelativePath": "api/Blog",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blog",
+        "Type": "Mekel.EntityLayer.Concrete.Blog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.BlogController",
+    "Method": "AddBlog",
+    "RelativePath": "api/Blog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blog",
+        "Type": "Mekel.EntityLayer.Concrete.Blog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.BlogController",
+    "Method": "GetBlog",
+    "RelativePath": "api/Blog/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.BlogController",
+    "Method": "DeleteBlog",
+    "RelativePath": "api/Blog/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CategoryController",
+    "Method": "CategoryList",
+    "RelativePath": "api/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Category",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "Mekel.EntityLayer.Concrete.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CategoryController",
+    "Method": "AddCategory",
+    "RelativePath": "api/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "Mekel.EntityLayer.Concrete.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CategoryController",
+    "Method": "GetCategory",
+    "RelativePath": "api/Category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ChefController",
+    "Method": "ChefList",
+    "RelativePath": "api/Chef",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ChefController",
+    "Method": "UpdateChef",
+    "RelativePath": "api/Chef",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chef",
+        "Type": "Mekel.EntityLayer.Concrete.Chef",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ChefController",
+    "Method": "AddChef",
+    "RelativePath": "api/Chef",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chef",
+        "Type": "Mekel.EntityLayer.Concrete.Chef",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ChefController",
+    "Method": "GetChef",
+    "RelativePath": "api/Chef/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ChefController",
+    "Method": "DeleteChef",
+    "RelativePath": "api/Chef/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CommentController",
+    "Method": "CommentList",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CommentController",
+    "Method": "UpdateComment",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "Mekel.EntityLayer.Concrete.Comment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CommentController",
+    "Method": "AddComment",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "Mekel.EntityLayer.Concrete.Comment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CommentController",
+    "Method": "GetComment",
+    "RelativePath": "api/Comment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.CommentController",
+    "Method": "DeleteComment",
+    "RelativePath": "api/Comment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ContactController",
+    "Method": "InboxListContact",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ContactController",
+    "Method": "AddContact",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contact",
+        "Type": "Mekel.EntityLayer.Concrete.Contact",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ContactController",
+    "Method": "GetSendMessage",
+    "RelativePath": "api/Contact/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ContactController",
+    "Method": "GetContactCount",
+    "RelativePath": "api/Contact/GetContactCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.FileImageController",
+    "Method": "UploadImage",
+    "RelativePath": "api/FileImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.FileProcessController",
+    "Method": "UploadFile",
+    "RelativePath": "api/FileProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.GalleryController",
+    "Method": "GalleryList",
+    "RelativePath": "api/Gallery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.GalleryController",
+    "Method": "UpdateGallery",
+    "RelativePath": "api/Gallery",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gallery",
+        "Type": "Mekel.EntityLayer.Concrete.Gallery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.GalleryController",
+    "Method": "AddGallery",
+    "RelativePath": "api/Gallery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gallery",
+        "Type": "Mekel.EntityLayer.Concrete.Gallery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.GalleryController",
+    "Method": "GetGallery",
+    "RelativePath": "api/Gallery/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.GalleryController",
+    "Method": "DeleteGallery",
+    "RelativePath": "api/Gallery/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.HomeController",
+    "Method": "HomeList",
+    "RelativePath": "api/Home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.HomeController",
+    "Method": "UpdateHome",
+    "RelativePath": "api/Home",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "home",
+        "Type": "Mekel.EntityLayer.Concrete.Home",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.HomeController",
+    "Method": "AddHome",
+    "RelativePath": "api/Home",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "home",
+        "Type": "Mekel.EntityLayer.Concrete.Home",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.HomeController",
+    "Method": "GetHome",
+    "RelativePath": "api/Home/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.HomeController",
+    "Method": "DeleteHome",
+    "RelativePath": "api/Home/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MenuController",
+    "Method": "MenuList",
+    "RelativePath": "api/Menu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MenuController",
+    "Method": "UpdateMenu",
+    "RelativePath": "api/Menu",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menu",
+        "Type": "Mekel.EntityLayer.Concrete.Menu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MenuController",
+    "Method": "AddMenu",
+    "RelativePath": "api/Menu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menu",
+        "Type": "Mekel.EntityLayer.Concrete.Menu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MenuController",
+    "Method": "GetMenu",
+    "RelativePath": "api/Menu/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MenuController",
+    "Method": "DeleteMenu",
+    "RelativePath": "api/Menu/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MessageCategoryController",
+    "Method": "MessageCategoryList",
+    "RelativePath": "api/MessageCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MessageCategoryController",
+    "Method": "AddMessageCategory",
+    "RelativePath": "api/MessageCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageCategory",
+        "Type": "Mekel.EntityLayer.Concrete.MessageCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MessageCategoryController",
+    "Method": "UpdateMessageCategory",
+    "RelativePath": "api/MessageCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageCategory",
+        "Type": "Mekel.EntityLayer.Concrete.MessageCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MessageCategoryController",
+    "Method": "DeleteMessageCategory",
+    "RelativePath": "api/MessageCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.MessageCategoryController",
+    "Method": "GetMessageCategory",
+    "RelativePath": "api/MessageCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "ReservationList",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "AddReservation",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservation",
+        "Type": "Mekel.EntityLayer.Concrete.Reservation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "GetReservation",
+    "RelativePath": "api/Reservation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "DeleteReservation",
+    "RelativePath": "api/Reservation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "Last6Reservation",
+    "RelativePath": "api/Reservation/Last6Reservation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "ReservationAproved",
+    "RelativePath": "api/Reservation/ReservationAproved",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "ReservationCancel",
+    "RelativePath": "api/Reservation/ReservationCancel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "ReservationWait",
+    "RelativePath": "api/Reservation/ReservationWait",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.ReservationController",
+    "Method": "UpdateReservation",
+    "RelativePath": "api/Reservation/UpdateReservation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservation",
+        "Type": "Mekel.EntityLayer.Concrete.Reservation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.SendMessageController",
+    "Method": "SendMessageList",
+    "RelativePath": "api/SendMessage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.SendMessageController",
+    "Method": "AddSendMessage",
+    "RelativePath": "api/SendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sendMessage",
+        "Type": "Mekel.EntityLayer.Concrete.SendMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.SendMessageController",
+    "Method": "UpdateSendMessage",
+    "RelativePath": "api/SendMessage",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sendMessage",
+        "Type": "Mekel.EntityLayer.Concrete.SendMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.SendMessageController",
+    "Method": "DeleteSendMessage",
+    "RelativePath": "api/SendMessage/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.SendMessageController",
+    "Method": "GetSendMessage",
+    "RelativePath": "api/SendMessage/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mekel.WebApi.Controllers.SendMessageController",
+    "Method": "GetSendMessageCount",
+    "RelativePath": "api/SendMessage/GetSendMessageCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
